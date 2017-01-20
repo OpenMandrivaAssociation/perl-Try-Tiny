@@ -1,10 +1,10 @@
 %define modname	Try-Tiny
-%define modver	0.11
+%define modver	0.28
 
 Summary:	Minimal try/catch with proper localization of $@
 Name:		perl-%{modname}
 Version:	%perl_convert_version %{modver}
-Release:	16
+Release:	1
 License:	GPLv2+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{modname}
@@ -47,4 +47,3 @@ boilerplate each time.
 %doc Changes
 %{perl_vendorlib}/*
 %{_mandir}/man3/*
-
