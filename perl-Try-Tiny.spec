@@ -1,5 +1,5 @@
 %define modname	Try-Tiny
-%define modver	0.28
+%define modver	0.30
 
 Summary:	Minimal try/catch with proper localization of $@
 Name:		perl-%{modname}
