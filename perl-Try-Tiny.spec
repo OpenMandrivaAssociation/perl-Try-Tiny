@@ -7,7 +7,7 @@
 Summary:	Minimal try/catch with proper localization of $@
 Name:		perl-%{modname}
 Version:	%perl_convert_version %{modver}
-Release:	4
+Release:	5
 License:	GPLv2+ or Artistic
 Group:		Development/Perl
 Url:		http://metacpan.org/pod/Try::Tiny
@@ -34,7 +34,7 @@ who still want to write correct 'eval' blocks without 5 lines of
 boilerplate each time.
 
 %prep
-%setup -qn %{modname}-%{modver}
+%autosetup -p1 -n %{modname}-%{modver}
 
 %build
 %__perl Makefile.PL INSTALLDIRS=vendor
