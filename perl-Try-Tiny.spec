@@ -1,5 +1,5 @@
 %define modname	Try-Tiny
-%define modver	0.30
+%define modver	0.31
 
 # Avoid nasty build dependency loop
 %define dont_gprintify 1
@@ -7,11 +7,11 @@
 Summary:	Minimal try/catch with proper localization of $@
 Name:		perl-%{modname}
 Version:	%perl_convert_version %{modver}
-Release:	5
+Release:	1
 License:	GPLv2+ or Artistic
 Group:		Development/Perl
 Url:		http://metacpan.org/pod/Try::Tiny
-Source0:	http://www.cpan.org/modules/by-module/Try/%{modname}-%{modver}.tar.gz
+Source0:	https://cpan.metacpan.org/authors/id/E/ET/ETHER/Try-Tiny-%{modver}.tar.gz
 BuildArch:	noarch
 BuildRequires:	perl(Test::More)
 BuildRequires:	perl-devel
