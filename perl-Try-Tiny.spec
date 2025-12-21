@@ -13,6 +13,7 @@ Group:		Development/Perl
 Url:		https://metacpan.org/pod/Try::Tiny
 Source0:	https://cpan.metacpan.org/authors/id/E/ET/ETHER/Try-Tiny-%{modver}.tar.gz
 BuildArch:	noarch
+BuildRequires:	make
 BuildRequires:	perl(Test::More)
 BuildRequires:	perl-devel
 
